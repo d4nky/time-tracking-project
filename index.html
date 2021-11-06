@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="main.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <div class="main">
+    <div class="main-top">
+      <div class="main-left-section">
+        <img id="jeremy-img" src="/images/image-jeremy.png" alt="Image of Jeremy">
+      </div>
+      <div class="main-right-section">
+        <h3>Report for</h3>
+        <h1>Jeremy Robson</h1>
+      </div>
+    </div>
+      <div class="main-bot">
+        <a id="daily-button" href="#">Daily</a>
+        <a id="weekly-button" href="#">Weekly</a>
+        <a id="monthly-button" href="#">Monthly</a>
+      </div>
+    </div>
+
+  
+  <div class="card work-section">
+    <div class="icon-container">
+      <img id="icon work" src="/images/icon-work.svg" alt="icon work" style="background-color: hsl(15, 100%, 70%)">
+    </div>
+    <div class="content work-info">
+      <div class="left">
+        <h1 class="title-work">Work</h1>
+        <h1 class="current-work"></h1>
+      </div>
+      <div class="right">
+        <div class="previous-work">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="card play-section">
+
+    <div class="icon-container">
+      <img id="icon play" src="/images/icon-play.svg" alt="icon play" style="background-color: hsl(195, 74%, 62%)">
+    </div>
+
+    <div class="content play-info">
+      <div class="left">
+        <h1 class="title-play">Play</h1>
+        <h1 class="current-play"></h1>
+      </div>
+      <div class="right">
+        <div class="previous-play">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="card study-section">
+
+    <div class="icon-container">
+      <img id="icon-study" src="/images/icon-study.svg" alt="icon study" style="background-color: hsl(348, 100%, 68%)">
+    </div>
+
+    <div class="content study-info">
+      <div class="left">
+        <h1 class="title-study">Study</h1>
+        <h1 class="current-study"></h1>
+      </div>
+      <div class="right">
+        <div class="previous-study">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="card exercise-section">
+
+    <div class="icon-container">
+      <img id="icon exercise" src="/images/icon-exercise.svg" alt="icon exercise" style="background-color: hsl(145, 58%, 55%)">
+    </div>
+
+    <div class="content exercise-info">
+      <div class="left">
+        <h1 class="title-exercise">Exercise</h1>
+        <h1 class="current-exercise"></h1>
+      </div>
+      <div class="right">
+        <div class="previous-exercise">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="card social-section">
+
+  <div class="icon-container">
+      <img id="icon social" src="/images/icon-social.svg" alt="icon social" style="background-color: hsl(264, 64%, 52%);">
+    </div>
+
+    <div class="content social-info"> 
+      <div class="left">
+        <h1 class="title-social">Social</h1>
+        <h1 class="current-social"></h1>
+      </div>
+      <div class="right">
+        <div class="previous-social">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="card selfcare-section">
+
+    <div class="icon-container">
+      <img id="icon selfcare" src="/images/icon-self-care.svg" alt="icon self-care" style="background-color: hsl(43, 84%, 65%)">
+    </div>
+
+    <div class="content selfcare-info">   
+      <div class="left">
+        <h1 class="title-selfcare">Self Care</h1>
+        <h1 class="current-selfcare"></h1>
+      </div>
+      <div class="right">
+        <div class="previous-selfcare">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">d4nky</a>.
+  </div>
+
+  <script type="text/javascript" src="data.json"></script>
+  <script type="text/javascript" src="/main.js"></script>
+</body>
+</html>

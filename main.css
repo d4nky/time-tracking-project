@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Libre+Franklin:wght@400;600&family=Poppins&family=Rubik:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Inter',
+    sans-serif;
+    font-family: 'Libre Franklin',
+    sans-serif;
+    font-family: 'Poppins',
+    sans-serif;
+    font-family: 'Rubik',
+    sans-serif;
+    color: white;
+    text-decoration: 0;
+}
+
+:root{
+    --Blue: hsl(246, 80%, 60%);
+    --Light-orange: hsl(15, 100%, 70%);
+    --Soft-blue: hsl(195, 74%, 62%);
+    --Light-red: hsl(348, 100%, 68%);
+    --Lime-green: hsl(145, 58%, 55%);
+    --Violet: hsl(264, 64%, 52%);
+    --Soft-orange: hsl(43, 84%, 65%);
+    --Very-dark-blue: hsl(226, 43%, 10%);
+    --Dark-blue: hsl(235, 46%, 20%);
+    --Desaturated-blue: hsl(235, 45%, 61%);
+    --Pale-blue: hsl(236, 100%, 87%);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--Very-dark-blue);
+}
+
+#jeremy-img{
+    border: 3px solid white;
+    border-radius: 100%;
+    width: 64px;
+    margin-right: 15px;
+}
+
+.main{
+    margin-top: 70px;
+    background: var(--Dark-blue);
+    color: var(--Pale-blue);
+    overflow: hidden;
+    border-radius: 15px;
+}
+.main-top{
+    border-radius:  15px;
+    background: var(--Blue);
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.main-top h3{
+    color: var(--Pale-blue);
+    margin-bottom: 5px;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+.main-top h1{
+    font-weight: 300;
+}
+.main-right-section{
+    justify-content: flex-end;
+}
+.main-left-section{
+    justify-content: flex-start;
+}
+.main-bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    padding: 20px 15px 20px 15px ;
+}
+a{
+    color: var(--Pale-blue);
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+a:hover{
+    color: white;
+}
+
+
+
+/* fix this shit lmao */
+.icon-container{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 50px;
+    z-index: 1;
+    overflow: hidden;
+
+}
+.card{
+    width: 255px;
+    margin: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.content{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    border-radius: 15px;
+    background: var(--Dark-blue);
+}
+.title{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+/*  */
+
+
+
+.work-section{
+    background: var(--Light-orange);
+}
+.play-section {
+    background: var(--Soft-blue);
+}
+.study-section {
+    background: var(--Light-red);
+}
+.exercise-section {
+    background: var(--Lime-green);
+}
+.social-section {
+    background: var(--Violet);
+}
+.selfcare-section {
+    background: var(--Soft-orange);
+}
+.left{
+    padding: 20px;
+}
+.left > *{
+    font-weight: 200;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.right{
+    padding: 20px;
+}
+.right > * {
+    padding: 20px;
+    color: var(--Pale-blue);
+    font-weight: 200;
+    font-size: 0.7rem;
+}
